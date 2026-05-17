@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité — Stocké</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 4px; }
+    h2 { font-size: 1.15rem; margin-top: 36px; border-bottom: 1px solid #e0e0e0; padding-bottom: 6px; }
+    p, li { font-size: 0.97rem; }
+    ul { padding-left: 20px; }
+    a { color: #007AFF; }
+    .meta { color: #666; font-size: 0.9rem; margin-bottom: 32px; }
+  </style>
+</head>
+<body>
+
+  <h1>Politique de confidentialité</h1>
+  <p class="meta">Application <strong>Stocké</strong> — Dernière mise à jour : 17 mai 2026</p>
+
+  <p>
+    Stocké est une application mobile de gestion de stock domestique (inventaire, dates de péremption,
+    liste de courses, recettes). Cette politique explique quelles données sont collectées, comment elles
+    sont utilisées et quels droits vous avez.
+  </p>
+
+  <h2>1. Données collectées</h2>
+
+  <h3>a) Données de compte</h3>
+  <p>
+    L'authentification est réalisée via <strong>Google Sign-In (OAuth 2.0)</strong>. Lors de la
+    connexion, nous récupérons votre adresse e-mail et votre nom d'affichage Google, uniquement pour
+    identifier votre compte au sein de l'application.
+  </p>
+
+  <h3>b) Données de stock et de ménage</h3>
+  <p>
+    Les informations que vous saisissez dans l'application (produits, quantités, dates de péremption,
+    emplacements, recettes, liste de courses, foyers) sont stockées sur des serveurs sécurisés
+    <strong>Supabase</strong> et ne sont accessibles que par vous et les membres du foyer que vous
+    invitez explicitement.
+  </p>
+
+  <h3>c) Photos de produits</h3>
+  <p>
+    Si vous prenez ou importez une photo d'un produit, elle est enregistrée sur nos serveurs de
+    stockage (Supabase Storage). L'accès à l'appareil photo est demandé uniquement lorsque vous
+    initiez cette action.
+  </p>
+
+  <h3>d) Données techniques locales</h3>
+  <p>
+    Un cache local (AsyncStorage) est utilisé sur votre appareil pour stocker temporairement des
+    informations de prix (durée : 7 jours maximum). Ces données ne contiennent aucune information
+    personnelle et ne sont jamais transmises à des tiers.
+  </p>
+
+  <h2>2. Services tiers consultés</h2>
+  <p>
+    Lors de la recherche d'un produit par code-barres, l'application peut interroger les bases de
+    données suivantes. Seul le code-barres du produit est transmis — aucune donnée personnelle n'est
+    envoyée.
+  </p>
+  <ul>
+    <li><a href="https://world.openfoodfacts.org" target="_blank">Open Food Facts</a> — produits alimentaires</li>
+    <li><a href="https://world.openbeautyfacts.org" target="_blank">Open Beauty Facts</a> — cosmétiques et hygiène</li>
+    <li><a href="https://world.openproductsfacts.org" target="_blank">Open Products Facts</a> — produits ménagers</li>
+    <li><a href="https://prices.openfoodfacts.org" target="_blank">Open Prices</a> — estimation du prix des produits</li>
+  </ul>
+  <p>Ces services sont gérés par l'association Open Food Facts et leurs propres politiques s'appliquent.</p>
+
+  <h2>3. Ce que nous ne faisons pas</h2>
+  <ul>
+    <li>Nous ne vendons ni ne partageons vos données avec des annonceurs.</li>
+    <li>Nous n'utilisons pas de traceurs ou d'outils d'analyse comportementale.</li>
+    <li>Nous n'envoyons pas de notifications sans votre accord explicite.</li>
+  </ul>
+
+  <h2>4. Conservation des données</h2>
+  <p>
+    Vos données sont conservées tant que votre compte est actif. Vous pouvez demander la suppression
+    de votre compte et de toutes les données associées en contactant l'adresse ci-dessous.
+  </p>
+
+  <h2>5. Vos droits (RGPD)</h2>
+  <p>
+    Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits
+    suivants : accès, rectification, suppression, portabilité et opposition au traitement de vos
+    données personnelles. Pour exercer ces droits, contactez-nous à l'adresse indiquée ci-dessous.
+  </p>
+
+  <h2>6. Contact</h2>
+  <p>
+    Pour toute question relative à la confidentialité :<br />
+    <a href="mailto:savonni@gmail.com">savonni@gmail.com</a>
+  </p>
+
+</body>
+</html>
